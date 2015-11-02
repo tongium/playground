@@ -1,0 +1,17 @@
+#canv {
+}
+
+body {
+	background: rgb(12,12,12);
+	overflow: hidden;
+}
+
+.snow {
+	border-radius: 50%;
+	position : absolute;
+	z-index : 500;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	opacity: 0.77;
+    filter: alpha(opacity=100);
+}
